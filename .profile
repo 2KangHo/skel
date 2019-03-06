@@ -33,7 +33,7 @@ if [ -d "/usr/local/cuda/bin/" ]; then
 fi
 
 # set PATH for tmux installation
-if [ -d "/usr/local/cuda/bin/" ]; then
+if [ -d "$HOME/tmux/bin/" ]; then
     export PATH=$HOME/tmux/bin${PATH:+:${PATH}}
     export LD_LIBRARY_PATH=$HOME/tmux/lib${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 fi
